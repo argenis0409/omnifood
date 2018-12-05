@@ -4,13 +4,15 @@
     box-sizing: border-box;
     }
     
-html {
+html,
+body {
     background-color: #fff;
     color: rgb(54, 54, 54);
     font-family:  'Lato', 'Arial', sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow: hidden;
     }
     .clearfix {zoom: 1}
     .clearfix:after {
@@ -82,8 +84,6 @@ header {
    width: 70%;
    margin-left: 15%; 
    }
-
-/*-------------- links section start here --------------*/
  
  a,
  a:active {
@@ -100,7 +100,6 @@ header {
  border-bottom: 1px solid transparent;
  }
 
- /*----------------- links section ends here -------------*/
    .box p {
    font-size: 90%;
    line-height: 145%; 
@@ -209,13 +208,11 @@ input[type=submit] {
    .main-nav li a:active {
    border-bottom: 2px solid #e67e22;
    }
-/*----------- features section start here -------------------*/
 
 .section-features .long-copy {
 margin-bottom: 40px;
 }
 
-/* ----------- meal section start here -----------------*/
 
    section{
     padding: 80px 0;
@@ -256,7 +253,6 @@ margin-bottom: 40px;
    opacity: 1;
    }
 
-/*----------------- how it works feature start here -------------------*/
 .section-steps {
 background-color: #f4f4f4
 }
@@ -310,7 +306,6 @@ margin-right: 10px;
 border: 0;
 }
 
-/*-------------- cities section -------------*/
 
 .box img {
 width: 100%;
@@ -321,8 +316,6 @@ margin-bottom: 15px;
 .city-feature {
 margin-bottom: 5px;
 }
-
-/* customer testimonial section here */
 
 .section-testimonials {
 background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
@@ -361,7 +354,6 @@ margin-right: 10px;
 vertical-align: middle;
 }
 
-/*-------- plans section start here --------*/
 
 .section-plans {
 background-color: #f4f4f4
@@ -415,8 +407,6 @@ list-style: none;
 padding: 5px 0;
 }
 
-/*---------- contact from start here ---------*/
-
 .contact-form {
 width: 60%;
 margin: 0 auto;
@@ -442,7 +432,6 @@ margin: 10px 5px 10px 0;
 
 *:focus {outline: none;}
 
-/*--------- footer section here ----------------*/
 
 footer {
 background-color: #333;
@@ -520,4 +509,3 @@ color: #888;
 text-align: center;
 margin-top: 20px;
 }
-
