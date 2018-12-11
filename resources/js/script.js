@@ -1,6 +1,5 @@
 $(document).ready(function () {
 
-    // sticky nav start here
     $('.js--section-features').waypoint(function (direction) {
         if (direction == "down") {
             $('nav').addClass('sticky');
@@ -42,5 +41,13 @@ $(document).ready(function () {
             }
         });
     });
+
+    // animation scroll efect here
+
+    $('.js--wp-1').waypoint(function(direction) {
+    $('.js--wp-1').addClass('animated fadeIn')
+    }, {
+    offset: '50%'
+    })
 
 })
