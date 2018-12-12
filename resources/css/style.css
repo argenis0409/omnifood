@@ -200,6 +200,19 @@ input[type=submit] {
    margin-left: 40px; 
    }
 
+   .mobile-nav-icon {
+   float: right;
+   margin-top: 30px;
+   cursor: pointer;
+   display: none;
+   }
+
+   .mobile-nav-icon i {
+   font-size: 200%;
+   color: #fff;
+   }
+
+
    /*---------- sticky nav start here --------------*/
 
    .sticky {
@@ -559,4 +572,8 @@ animation-duration: 1s;
 .js--wp-2.animated,
 .js--wp-3.animated {
 opacity: 1;
+}
+
+.send {
+cursor:pointer;
 }
