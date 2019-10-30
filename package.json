@@ -1,0 +1,33 @@
+{
+  "name": "omnifood",
+  "version": "1.0.0",
+  "description": "a demo package",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "less": "lessc resources/css/style.css",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/argenis0409/omnifood.git"
+  },
+  "keywords": [
+    "Omnifood"
+  ],
+  "author": "argenis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/argenis0409/omnifood/issues"
+  },
+  "homepage": "https://github.com/argenis0409/omnifood#readme",
+  "devDependencies": {
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

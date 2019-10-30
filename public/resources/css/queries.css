@@ -1,5 +1,5 @@
 
-/* big tablets to 1200px  width smaller taht the 1140px row */
+/* big tablets to 1200px  width smaller than the 1140px row */
 @media only screen and (max-width: 1200px) {
 
     .hero-text-box {
@@ -109,6 +109,3 @@
 section { padding: 25px; }
 .contact-form { width: 100%; }
 }
-
-
-
